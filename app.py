@@ -10,8 +10,6 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 st.set_page_config(page_title="Employee Salary Prediction", layout="centered")
 st.title("💼 Employee Salary Prediction App")
 
-# --- Debug: list files in directory ---
-st.write("📂 Files in working directory:", os.listdir())
 
 # ========== Caching ==========
 @st.cache_resource
